@@ -129,10 +129,10 @@ list-style: none;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0px 50px;
+    padding: 30px 50px;
     box-shadow: 10px;
     border: 2px solid red;
-    margin:3%  15%;
+    margin:90px  15%;
     border-radius: 1.5rem;
     background-color: rgb(252, 220, 220);
     
@@ -470,3 +470,329 @@ label:nth-child(3){
 }
 
 
+
+/* =========================================
+   TABLET RESPONSIVE
+========================================= */
+
+@media screen and (max-width:1024px){
+
+    /* NAVBAR */
+
+    .nav{
+        padding: 0 1rem;
+    }
+
+    .navmiddle li{
+        padding: 1rem;
+    }
+
+    /* HERO */
+
+    .hero{
+        min-height: 100vh;
+        height: auto;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        background:
+        linear-gradient(
+            rgba(255,255,255,0.88),
+            rgba(255,255,255,0.92)
+        ),
+        url("../images/doc.jpeg");
+
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+        padding: 3rem;
+    }
+
+    .heroright{
+        display: none;
+    }
+
+    .heroleft{
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+
+    .heading{
+        padding: 0;
+    }
+
+    .heading h1{
+        font-size: 3rem;
+    }
+
+    .para{
+        padding: 1rem 0;
+    }
+
+    .para p{
+        font-size: 1.2rem;
+    }
+
+    .button{
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .button button{
+        width: 220px;
+    }
+
+    .cards{
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    .card{
+        background: rgba(255,255,255,0.75);
+        backdrop-filter: blur(8px);
+        border-radius: 15px;
+    }
+
+    /* EMERGENCY */
+
+    .emergency{
+        margin: 2rem;
+        height: auto;
+    }
+
+    /* SERVICES */
+
+    .services{
+        flex-direction: column;
+        height: auto;
+        padding: 3rem;
+    }
+
+    .info1{
+        text-align: center;
+    }
+
+    .info1 p{
+        font-size: 1.5rem;
+    }
+
+    .boxes{
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    .box{
+        width: 280px;
+    }
+
+    /* DOCTORS */
+
+    .specialist{
+        height: auto;
+    }
+
+    .scroll{
+        padding: 0 2rem;
+    }
+
+    .drp h3,
+    .drp p{
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .drcard{
+        min-width: 280px;
+    }
+
+    /* APPOINTMENT */
+
+    .appointment{
+        flex-wrap: wrap;
+        height: auto;
+        gap: 1rem;
+    }
+
+    /* FOOTER */
+
+    .footer{
+        height: auto;
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+
+    .logo,
+    .quick,
+    .footservices,
+    .contact{
+        width: 45%;
+    }
+}
+
+/* =========================================
+   MOBILE RESPONSIVE
+========================================= */
+
+@media screen and (max-width:768px){
+
+    /* NAVBAR */
+
+    .nav{
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    .navmiddle ul{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navmiddle li{
+        padding: .5rem;
+    }
+
+    .navright{
+        padding: 1rem;
+    }
+
+    /* HERO */
+
+    .hero{
+        padding: 2rem 1rem;
+    }
+
+    .heading h1{
+        font-size: 2.2rem;
+    }
+
+    .para p{
+        font-size: 1rem;
+        line-height: 1.7;
+    }
+
+    .button{
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .button button{
+        width: 100%;
+        max-width: 280px;
+    }
+
+    .cards{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card{
+        width: 100%;
+        justify-content: center;
+    }
+
+    /* EMERGENCY */
+
+    .emergency{
+        flex-direction: column;
+        text-align: center;
+        padding: 1.5rem;
+    }
+
+    .em{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* SERVICES */
+
+    .services{
+        padding: 2rem 1rem;
+    }
+
+    .boxes{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box{
+        width: 100%;
+        max-width: 350px;
+    }
+
+    .info1 p{
+        font-size: 1.2rem;
+    }
+
+    /* DOCTOR SECTION */
+
+    .drp h3{
+        font-size: 2rem;
+    }
+
+    .drp p{
+        font-size: 1rem;
+    }
+
+    .scroll{
+        padding: 0 1rem;
+    }
+
+    .drcard{
+        min-width: 240px;
+    }
+
+    /* APPOINTMENT */
+
+    .appointmentbg{
+        height: auto;
+        padding: 2rem 0;
+    }
+
+    .appointment{
+        flex-direction: column;
+        margin: 1rem;
+        padding: 1.5rem;
+    }
+
+    .appointment input,
+    .appointment select{
+        width: 100%;
+        padding: .8rem;
+    }
+
+    .appbutton button{
+        width: 100%;
+    }
+
+    /* TESTIMONIAL */
+
+    .testimonial{
+        width: 95%;
+        height: auto;
+    }
+
+    /* FOOTER */
+
+    .footer{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .logo,
+    .quick,
+    .footservices,
+    .contact{
+        width: 100%;
+    }
+}
