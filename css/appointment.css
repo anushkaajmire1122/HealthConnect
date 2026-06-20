@@ -1,0 +1,267 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+.container{
+    width: 100vw;
+    background-color: white;
+}
+.nav{
+    height: 5rem;
+    width: 100%;
+    background-color:#1A2340;
+    display: flex;
+    justify-content: space-between;
+}
+.navleft{
+    padding: 0.5rem;
+}
+.navleft img{
+    height: 60px;
+    width: 12rem;
+}
+.navmiddle ul{
+display: flex;
+justify-content: space-between;
+list-style: none;
+
+}
+.navmiddle li{
+    padding:2rem;
+}
+.navmiddle a{
+    text-decoration: none;
+    color: #1A73E8;
+    font-size: 0.95rem;
+    font-family: 'inter';
+}
+.navright{
+    padding: 2rem;
+}
+.navright button{
+    background-color: #1A73E8;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+.book{
+    height: 60vh;
+    width: 100vw;
+    display: flex;
+    padding: 2rem;
+    gap: 100px;
+}
+.appointmentpic{
+    width:40%;
+}
+.appointmentpic img{
+    height: 120%;
+    width: 100%;
+    object-fit: contain;
+}
+.bookinfo{
+    font-size: 1.5rem;
+    padding: 2.5rem 0px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.mainheading{
+    font-size: 4rem;
+}
+.combine{
+    height: 90vh;
+    margin-bottom:50px ;
+    width: 100%;
+    display: grid;
+    grid-template-columns:10% 0.6fr 1.4fr 10% ;
+    grid-template-rows: 1fr;
+    grid-template-areas: ". conform  form .";
+    
+
+}
+
+.conform{
+    height: 70%;
+    width: 100%;
+    background-color: #5f93d6;
+    grid-area:conform ;
+    border-radius: 2rem;
+box-shadow: 0px 0px 15px  gray;
+display: flex;
+justify-content: center;
+padding: 2rem;
+
+}
+
+.form{
+    grid-area: form;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100%;
+width: 100%;
+margin: 1.5rem;
+background-color:white;
+border-radius: 2rem;
+box-shadow: 0px 0px 15px  gray;
+}
+.doctor{
+    display: flex;
+    gap: 10px;
+}
+.info{
+    margin-left: 1rem;
+    /* display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: left; */
+}
+.logo{
+    font-size: 2rem;
+    width: 50px;
+}
+.all{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 30px 0px; 
+}
+
+
+
+.form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px 20px;
+}
+
+.form form{
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.form table{
+    border-spacing: 15px;
+    width: 100%;
+}
+
+.form label{
+    font-weight: 600;
+    color: #333;
+}
+
+.form input,
+.form select{
+    width: 280px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.form input:focus,
+.form select:focus{
+    border-color: #0d6efd;
+    box-shadow: 0 0 5px rgba(13,110,253,0.3);
+}
+
+.form button{
+    width: 100%;
+    padding: 12px;
+    background: #0d6efd;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.form button:hover{
+    background: #0b5ed7;
+}
+
+
+
+
+
+
+.footer{
+    height:40vh ;
+    width: 100%;
+    background-color:#bdd4f3;
+    display: flex;
+    justify-content: space-evenly;
+    gap:20px;
+    
+}
+.footer img{
+    height:40px;
+    width:200px;   
+}
+.footlogo,
+.quick,
+.footservices,
+.contact{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.quick li{
+    list-style: none;
+    color: white;
+    
+}
+.quick a{
+    text-decoration: none;
+    color: black;
+}
+.quick ul{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
+.footservices li{
+    list-style: none;
+}
+.footservices a{
+    text-decoration: none;
+    color: black;
+}
+.footservices{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footservices ul{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.footer{
+    padding: 1rem;
+}
+.contact li{
+    list-style: none;
+}
+.contact ul{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.quick{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+

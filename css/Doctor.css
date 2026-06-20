@@ -1,0 +1,275 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html, body {
+    overflow-x: hidden;
+}
+.container{
+    width: 100vw;
+    background-color: white;
+}
+.nav{
+    height: 5rem;
+    width: 100%;
+    background-color:#1A2340;
+    display: flex;
+    justify-content: space-between;
+}
+.navleft{
+    padding: 0.5rem;
+}
+.navleft img{
+    height: 60px;
+    width: 12rem;
+}
+.navmiddle ul{
+display: flex;
+justify-content: space-between;
+list-style: none;
+
+}
+.navmiddle li{
+    padding:2rem;
+}
+.navmiddle a{
+    text-decoration: none;
+    color: #1A73E8;
+    font-size: 0.95rem;
+    font-family: 'inter';
+}
+.navright{
+    padding: 2rem;
+}
+.navright button{
+    background-color: #1A73E8;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+.imgs{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 60px;
+
+    
+    
+    
+}
+.drimg img{
+    height: 50vh;
+    width: 200px;
+    border-radius: 2rem;
+    border-bottom: 4px solid #1A73E8 ;
+    
+    
+
+}
+.drimg :hover{
+    width: 400px;
+    transition: 0.5s ease;
+}
+.drimg{
+    padding: 2rem;
+    border-bottom: 4px solid #1A73E8 ;
+    
+    
+}
+.drinfo span{
+    color: #1A73E8;
+}
+.drinfo{
+    display: flex;
+    padding: 4rem;
+    
+}
+.maincard{
+    height: 50vh;
+    width: 100%;
+    display: flex;    
+
+}
+.cardimg img{
+    height: 50vh;
+    width:500px;
+}
+.drcard{
+    display: flex;
+    width: 85%;
+
+    
+    gap:30px;
+     border-radius: 2rem;
+     box-shadow: 0px  0px 15px grey;
+     overflow: hidden;
+    
+}
+.cardinfo{
+    padding: 2rem;
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
+
+.belowhero{
+    display: grid;
+    grid-template-columns: 5% 1fr 1fr 1fr 5%;
+
+    grid-template-rows: 5% 1fr 1fr 5%;
+    height: 90vh;
+    grid-template-areas: 
+    ". . . . ."
+    ". maincard1 maincard1 sidecard . "
+    " . maincard2 maincard2 sidecard ."
+    ". . . . . ";
+    padding :2rem;
+}
+#maincard1{
+    grid-area: maincard1;
+    width: 100%;
+    margin: 20px;
+}
+#maincard2{
+    grid-area: maincard2;
+    width: 100%;
+    margin: 20px
+}
+.cardinfo{
+    margin-right: 2rem ;
+}
+#sidecard{
+    grid-area: sidecard;
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    gap: 2rem;
+    border-radius: 2rem;
+    overflow: hidden;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 10px grey;
+    margin-top: 1.5rem;
+}
+.sidecardinfo{
+    margin-bottom: 4rem ;
+}
+.sidecardimg img{
+    width: 100%;
+    
+    
+}
+/* looping css */
+    
+    .organs-slider{
+    width:100%;
+    overflow:hidden;
+    padding:40px 0;
+    margin-top: 15rem;
+    background:white;
+}
+
+.slide-track{
+    display:flex;
+    width:max-content;
+    animation:scroll 20s linear infinite;
+    gap:50px;
+}
+
+.slide-track img{
+    width:120px;
+    height:120px;
+    object-fit:contain;
+    transition:0.3s;
+}
+
+.slide-track img:hover{
+    transform:scale(1.15);
+}
+
+@keyframes scroll{
+    from{
+        transform:translateX(0);
+    }
+    to{
+        transform:translateX(-50%);
+    }
+}
+.footer{
+    height:40vh ;
+    width: 100%;
+    background-color:#bdd4f3;
+    display: flex;
+    justify-content: space-evenly;
+    gap:20px;
+    
+}
+.footer img{
+    height:40px;
+    width:200px;   
+}
+.logo,
+.quick,
+.footservices,
+.contact{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.quick li{
+    list-style: none;
+    color: white;
+    
+}
+.quick a{
+    text-decoration: none;
+    color: black;
+}
+.quick ul{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
+.footservices li{
+    list-style: none;
+}
+.footservices a{
+    text-decoration: none;
+    color: black;
+}
+.footservices{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footservices ul{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.footer{
+    padding: 1rem;
+}
+.contact li{
+    list-style: none;
+}
+.contact ul{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.quick{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+
+
+
+
+
+
