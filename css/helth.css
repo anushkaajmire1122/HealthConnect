@@ -471,13 +471,10 @@ label:nth-child(3){
 
 
 
-/* =========================================
-   TABLET RESPONSIVE
-========================================= */
+
 
 @media screen and (max-width:1024px){
 
-    /* NAVBAR */
 
     .nav{
         padding: 0 1rem;
@@ -487,7 +484,6 @@ label:nth-child(3){
         padding: 1rem;
     }
 
-    /* HERO */
 
     .hero{
         min-height: 100vh;
@@ -558,14 +554,12 @@ label:nth-child(3){
         border-radius: 15px;
     }
 
-    /* EMERGENCY */
 
     .emergency{
         margin: 2rem;
         height: auto;
     }
 
-    /* SERVICES */
 
     .services{
         flex-direction: column;
@@ -592,7 +586,6 @@ label:nth-child(3){
         width: 280px;
     }
 
-    /* DOCTORS */
 
     .specialist{
         height: auto;
@@ -612,7 +605,6 @@ label:nth-child(3){
         min-width: 280px;
     }
 
-    /* APPOINTMENT */
 
     .appointment{
         flex-wrap: wrap;
@@ -620,7 +612,6 @@ label:nth-child(3){
         gap: 1rem;
     }
 
-    /* FOOTER */
 
     .footer{
         height: auto;
@@ -636,13 +627,9 @@ label:nth-child(3){
     }
 }
 
-/* =========================================
-   MOBILE RESPONSIVE
-========================================= */
 
 @media screen and (max-width:768px){
 
-    /* NAVBAR */
 
     .nav{
         flex-direction: column;
@@ -664,7 +651,6 @@ label:nth-child(3){
         padding: 1rem;
     }
 
-    /* HERO */
 
     .hero{
         padding: 2rem 1rem;
@@ -700,7 +686,6 @@ label:nth-child(3){
         justify-content: center;
     }
 
-    /* EMERGENCY */
 
     .emergency{
         flex-direction: column;
@@ -713,7 +698,6 @@ label:nth-child(3){
         align-items: center;
     }
 
-    /* SERVICES */
 
     .services{
         padding: 2rem 1rem;
@@ -733,7 +717,6 @@ label:nth-child(3){
         font-size: 1.2rem;
     }
 
-    /* DOCTOR SECTION */
 
     .drp h3{
         font-size: 2rem;
@@ -751,7 +734,6 @@ label:nth-child(3){
         min-width: 240px;
     }
 
-    /* APPOINTMENT */
 
     .appointmentbg{
         height: auto;
@@ -774,14 +756,12 @@ label:nth-child(3){
         width: 100%;
     }
 
-    /* TESTIMONIAL */
 
     .testimonial{
         width: 95%;
         height: auto;
     }
 
-    /* FOOTER */
 
     .footer{
         flex-direction: column;
