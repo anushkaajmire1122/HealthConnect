@@ -273,3 +273,351 @@ gap: 10px;
 
 
 
+
+@media screen and (max-width:1024px){
+
+    .container{
+        width: 100%;
+    }
+
+    /* Navbar */
+
+    .nav{
+        padding: 0 1rem;
+        align-items: center;
+    }
+
+    .navmiddle li{
+        padding: 1.2rem 0.8rem;
+    }
+
+    /* Hero */
+
+    .imgs{
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 2rem;
+        padding: 2rem 1rem;
+    }
+
+    .drinfo{
+        padding: 0;
+    }
+
+    .drinfo h3{
+        font-size: 3rem;
+    }
+
+    .drimg{
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        flex-wrap: wrap;
+        border-bottom: none;
+    }
+
+    .drimg img{
+        width: 180px;
+        height: 280px;
+    }
+
+    .drimg img:hover{
+        width: 220px;
+    }
+
+    /* Cards Section */
+
+    .belowhero{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        gap: 2rem;
+        padding: 2rem;
+    }
+
+    .maincard{
+        height: auto;
+        margin: 0;
+        
+    }
+
+    .drcard{
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .cardimg img{
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+    }
+
+    #sidecard{
+        width: 100%;
+        height: auto;
+        margin-top: 0;
+        flex-direction: row;
+        padding: 1rem;
+    }
+
+    .sidecardimg{
+        width: 40%;
+    }
+
+    .sidecardimg img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .sidecardinfo{
+        width: 60%;
+        margin-bottom: 0;
+        padding: 1rem;
+    }
+
+    /* Slider */
+
+    .organs-slider{
+        margin-top: 3rem;
+    }
+
+    .slide-track img{
+        width: 90px;
+        height: 90px;
+    }
+
+    /* Footer */
+
+    .footer{
+        height: auto;
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+
+    .logo,
+    .quick,
+    .footservices,
+    .contact{
+        width: 45%;
+    }
+}
+
+
+
+@media screen and (max-width:768px){
+
+    .container{
+        width: 100%;
+    }
+
+    /* Navbar */
+
+    .nav{
+        flex-direction: column;
+        height: auto;
+        padding: 1rem;
+        gap: 1rem;
+    }
+
+    .navmiddle ul{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navmiddle li{
+        padding: 0.5rem;
+    }
+
+    .navright{
+        padding: 0;
+    }
+
+    /* Hero Section */
+
+    .imgs{
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 2rem 1rem;
+        gap: 2rem;
+    }
+
+    .drinfo{
+        padding: 0;
+    }
+
+    .drinfo h3{
+        font-size: 2.5rem;
+        line-height: 1.2;
+    }
+
+    .drimg{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        border-bottom: none;
+    }
+
+    .drimg img{
+        width: 80%;
+        max-width: 280px;
+        height: auto;
+    }
+
+    .drimg img:hover{
+        width: 80%;
+    }
+
+    /* Doctors Cards */
+
+    .belowhero{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        padding: 1rem;
+        gap: 2rem;
+    }
+
+    .maincard{
+        height: auto;
+        width: 100%;
+    }
+
+    .drcard{
+        width: 100%;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .cardimg img{
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+    }
+
+    .cardinfo{
+        padding: 1.5rem;
+        margin-right: 0;
+    }
+
+    .cardinfo h1{
+        font-size: 1.5rem;
+    }
+
+    .cardinfo h2{
+        font-size: 1.1rem;
+    }
+
+    .cardinfo p{
+        font-size: 0.9rem;
+    }
+
+    /* Side Card */
+
+    #sidecard{
+        width: 100%;
+        height: auto;
+        margin-top: 0;
+        flex-direction: column;
+    }
+
+    .sidecardimg{
+        width: 100%;
+    }
+
+    .sidecardimg img{
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+    }
+
+    .sidecardinfo{
+        padding: 1.5rem;
+        margin-bottom: 0;
+        text-align: center;
+    }
+
+    .sidecardinfo h1{
+        font-size: 1.5rem;
+    }
+
+    .sidecardinfo h2{
+        font-size: 1.1rem;
+    }
+
+    /* Organs Slider */
+
+    .organs-slider{
+        margin-top: 2rem;
+        padding: 1.5rem 0;
+    }
+
+    .slide-track{
+        gap: 25px;
+    }
+
+    .slide-track img{
+        width: 70px;
+        height: 70px;
+    }
+
+    /* Footer */
+
+    .footer{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        height: auto;
+        gap: 2rem;
+        padding: 2rem 1rem;
+    }
+
+    .logo,
+    .quick,
+    .footservices,
+    .contact{
+        width: 100%;
+    }
+
+    .footer img{
+        margin: auto;
+    }
+}
+
+
+@media screen and (max-width:480px){
+
+    .navleft img{
+        width: 10rem;
+        height: auto;
+    }
+
+    .drinfo h3{
+        font-size: 2rem;
+    }
+
+    .cardinfo h1,
+    .sidecardinfo h1{
+        font-size: 1.3rem;
+    }
+
+    .cardinfo h2,
+    .sidecardinfo h2{
+        font-size: 1rem;
+    }
+
+    .cardinfo p,
+    .sidecardinfo p{
+        font-size: 0.85rem;
+    }
+
+    .slide-track img{
+        width: 60px;
+        height: 60px;
+    }
+}
