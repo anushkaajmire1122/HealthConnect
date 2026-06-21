@@ -263,41 +263,69 @@ box-shadow: 0px 0px 15px  gray;
     flex-direction: column;
     gap: 5px;
 }
+/* =========================
+   TABLET (1024px)
+========================= */
+
 @media screen and (max-width:1024px){
 
-
-    .nav{
-        padding: 0 1rem;
+    .book{
+        gap: 40px;
+        padding: 2rem;
+        align-items: center;
     }
 
-    .navmiddle li{
-        padding: 1rem;
+    .appointmentpic{
+        width: 45%;
     }
-    .appointment{
-        flex-wrap: wrap;
-        height: auto;
-        gap: 1rem;
+
+    .bookinfo{
+        font-size: 1.2rem;
     }
-     .footer{
+
+    .mainheading{
+        font-size: 3rem;
+    }
+
+    .combine{
+        height: auto;
+        grid-template-columns: 5% 1fr 1fr 5%;
+        gap: 20px;
+        margin-bottom: 3rem;
+    }
+
+    .form input,
+    .form select{
+        width: 220px;
+    }
+
+    .footer{
         height: auto;
         flex-wrap: wrap;
+        justify-content: center;
         gap: 2rem;
     }
-    .logo,
+
+    .footlogo,
     .quick,
     .footservices,
     .contact{
         width: 45%;
     }
 }
+
+
+
 @media screen and (max-width:768px){
 
+    /* Navbar */
 
     .nav{
-        flex-direction: column;
         height: auto;
+        flex-direction: column;
         align-items: center;
         padding: 1rem;
+        gap: 1rem;
     }
 
     .navmiddle ul{
@@ -306,24 +334,180 @@ box-shadow: 0px 0px 15px  gray;
     }
 
     .navmiddle li{
-        padding: .5rem;
+        padding: 0.5rem;
     }
 
     .navright{
+        padding: 0;
+    }
+
+    /* Hero Section */
+
+    .book{
+        flex-direction: column;
+        height: auto;
+        gap: 20px;
+        text-align: center;
+        padding: 2rem 1rem;
+    }
+
+    .appointmentpic{
+        width: 100%;
+    }
+
+    .appointmentpic img{
+        height: auto;
+        width: 100%;
+    }
+
+    .bookinfo{
+        width: 100%;
+        align-items: center;
+        padding: 0;
+    }
+
+    .mainheading{
+        font-size: 2.5rem;
+        line-height: 1.2;
+    }
+
+    .bookinfo h4{
+        font-size: 1rem;
+        margin-top: 10px;
+    }
+
+    /* Confirmation + Form */
+
+    .combine{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .conform{
+        width: 100%;
+        height: auto;
+        padding: 2rem 1rem;
+    }
+
+    .form{
+        width: 100%;
+        margin: 0;
         padding: 1rem;
     }
 
-    .footer{
+    .form form{
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .form table{
+        width: 100%;
+        border-spacing: 10px;
+    }
+
+    .form tr{
+        display: flex;
         flex-direction: column;
-        text-align: center;
+    }
+
+    .form td{
+        width: 100%;
+    }
+
+    .form input,
+    .form select{
+        width: 100%;
+    }
+
+    .form button{
+        width: 100%;
+    }
+
+    /* Appointment Details */
+
+    .doctor{
         align-items: center;
     }
 
-    .logo,
+    .logo{
+        width: 40px;
+        font-size: 1.5rem;
+    }
+
+    .info h2{
+        font-size: 1rem;
+    }
+
+    .info h3{
+        font-size: 0.9rem;
+    }
+
+    /* Footer */
+
+    .footer{
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 2rem;
+        padding: 2rem 1rem;
+    }
+
+    .footlogo,
     .quick,
     .footservices,
     .contact{
         width: 100%;
     }
+
+    .footer img{
+        margin: auto;
+    }
 }
 
+
+
+
+@media screen and (max-width:480px){
+
+    .navleft img{
+        width: 10rem;
+        height: auto;
+    }
+
+    .mainheading{
+        font-size: 2rem;
+    }
+
+    .bookinfo h4{
+        font-size: 0.9rem;
+    }
+
+    .tickinfo h2{
+        font-size: 1.3rem;
+    }
+
+    .tickinfo p{
+        font-size: 0.9rem;
+    }
+
+    .doctor{
+        gap: 8px;
+    }
+
+    .logo{
+        font-size: 1.3rem;
+    }
+
+    .info h2{
+        font-size: 0.95rem;
+    }
+
+    .info h3{
+        font-size: 0.85rem;
+    }
+}
